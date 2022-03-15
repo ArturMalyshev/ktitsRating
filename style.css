@@ -127,10 +127,122 @@
 .login-form button{
     background-color: #0075FF;
     text-align: center;
-    padding: 10px;
     color: white;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 780px) {
+    .one-new{
+        flex-direction: column-reverse;
+    }
+    .section-image-block{
+        margin: auto;
+    }
+    .main{
+        flex: 3;
+        margin-right: 15px;
+    }
+    .navigation{
+        flex: 2;
+    }
+    p{
+        font-size: 12px;
+    }
+    .footer a, .header a {
+        font-size: 16px;
+    }
+    .border, .general-div{
+        padding: 15px;
+    }
+    .one-new, .general-flex, .login-block, .login-form{
+        margin-top: 15px;
+    }
+    .section-description{
+        margin-top: 25px;
+        margin-right: 25px;
+    }
+    .login-form label{
+        margin-left: 20px;
+    }
+    .login-form input, .login-form button{
+        border-width: 1px;
+    }
+    .header a, .footer a:nth-child(1){
+        margin: 12px 0 12px 50px;
+    }
+    .footer a:nth-child(2){
+        margin: 12px 50px 12px 0;
+    }
+}
 
+@media screen and (max-width: 640px) {
+    .login-form button, .login-form label{
+        font-size: 14px;
+    }
+    .login-form label{
+        margin-left: 15px;
+    }
+    .section-header{
+        font-size: 20px;
+    }
+    .low-header_logo{
+        height: 50px;
+        width: 50px;
+    }
+    .main{
+        margin-right: 10px;
+    }
+    .navigation{
+        flex: 2;
+    }
+    p{
+        font-size: 12px;
+    }
+    .footer a, .header a {
+        font-size: 16px;
+    }
+    .border, .general-div{
+        padding: 10px;
+    }
+    .one-new, .general-flex, .login-block, .login-form{
+        margin-top: 10px;
+    }
+    .section-description{
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+    .login-form input, .login-form button{
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 515px) {
+    .header a, .footer a:nth-child(1), .footer a:nth-child(2){
+        font-size: 13px;
+        margin: 12px 30px 12px 30px;
+    }
+    .main{
+        margin-right: 0;
+    }
+    .general-flex{
+        flex-direction: column-reverse;
+    }
+    .login-form input, .login-form button{
+        height: 40px;
+        width: 100%;
+        border: black solid 1.5px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .header a, .footer a:nth-child(1), .footer a:nth-child(2){
+        font-size: 11px;
+        margin: 12px 25px 12px 25px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .header a, .footer a:nth-child(1), .footer a:nth-child(2){
+        font-size: 11px;
+        margin: 12px 12px 12px 12px;
+    }
 }
